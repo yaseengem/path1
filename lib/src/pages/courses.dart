@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../classes/objects.dart';
 
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
+class Courses extends StatelessWidget {
+  const Courses({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,9 +17,7 @@ class SecondScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-
           child: Text(args.name),
-
         ),
       ),
     );
