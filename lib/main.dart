@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const FirstScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
-        '/courses': (context) => const SecondScreen(),
+        '/courses': (context) => const Courses(),
       },
       theme: Provider.of<ThemeModel>(context).currentTheme,
     );
