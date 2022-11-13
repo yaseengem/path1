@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '/src/pages/first.dart';
-import '/src/pages/second.dart';
+import 'src/pages/home.dart';
+import 'src/pages/courses.dart';
 import '/src/shared/theme.dart';
 import 'package:provider/provider.dart';
 
