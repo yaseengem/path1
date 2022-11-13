@@ -11,12 +11,16 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         title: const SelectableText('Welcome to Studybits'),
+
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
+
             Navigator.pushNamed(context, '/courses',
+
                 arguments: Course("Course One", "This is a dmmy  course"));
             // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
           },

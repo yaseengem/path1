@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Path - Steps to success 1',
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
