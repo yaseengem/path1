@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../classes/objects.dart';
 
-import '/src/shared/theme.dart';
-import 'package:provider/provider.dart';
+// import '/src/shared/theme.dart';
+// import 'package:provider/provider.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
@@ -11,12 +11,12 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const SelectableText('First Screen'),
+        title: const SelectableText('Welcome to Studybits'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/second',
+            Navigator.pushNamed(context, '/courses',
                 arguments: Course("Course One", "This is a dmmy  course"));
             // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
           },

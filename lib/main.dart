@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '/src/pages/first.dart';
-import '/src/pages/second.dart';
+import 'src/pages/home.dart';
+import 'src/pages/courses.dart';
 import '/src/shared/theme.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const FirstScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
-        '/second': (context) => const SecondScreen(),
+        '/courses': (context) => const SecondScreen(),
       },
       theme: Provider.of<ThemeModel>(context).currentTheme,
     );
