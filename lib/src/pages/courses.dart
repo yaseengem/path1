@@ -17,7 +17,7 @@ class SecondScreen extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: SelectableText(args.name),
+          child: Text(args.name),
         ),
       ),
     );
