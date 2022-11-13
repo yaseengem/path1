@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../classes/objects.dart';
 
-// import '/src/shared/theme.dart';
-// import 'package:provider/provider.dart';
+import '/src/shared/theme.dart';
+import 'package:provider/provider.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
