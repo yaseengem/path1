@@ -26,14 +26,13 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => const FirstScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
-        '/second': (context) => const SecondScreen(),
+        '/courses': (context) => const SecondScreen(),
       },
       theme: Provider.of<ThemeModel>(context).currentTheme,
     );
   }
 }
 
-//Test
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
