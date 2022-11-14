@@ -20,8 +20,8 @@ class HomeScreen extends StatelessWidget {
         expandedHeight: 80,
         flexibleSpace: FlexibleSpaceBar(
           title: Text('Animated bar'),
-          background:
-              Image.asset('../../../assets/pathlogo.png', fit: BoxFit.cover),
+          background: Image.asset('../../../assets/path_logo_green.png',
+              fit: BoxFit.cover),
         ),
       ),
       SliverFillRemaining(
