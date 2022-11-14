@@ -20,7 +20,7 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: title,
       backgroundColor: backgroundColor,
-      actions: widgets,
+      // actions: widgets,
     );
   }
 

@@ -21,7 +21,7 @@ class Courses extends StatelessWidget {
       ),
       //set app bar from appbar.dart
       // use like this where ever you want
-      drawer: myDrawer(),
+      endDrawer: myDrawer(),
       //set drawer from app_drawer.dart
       //set like this where ever you want
       // appBar: AppBar(
