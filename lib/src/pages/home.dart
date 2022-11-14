@@ -4,8 +4,8 @@ import '../classes/objects.dart';
 // import '/src/shared/theme.dart';
 // import 'package:provider/provider.dart';
 
-class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class FirstScreen extends StatelessWidget {
       SliverAppBar(
         floating: false,
         pinned: false,
-        expandedHeight: 200,
+        expandedHeight: 80,
         flexibleSpace: FlexibleSpaceBar(
           title: Text('Animated bar'),
           background:
@@ -32,7 +32,8 @@ class FirstScreen extends StatelessWidget {
                 arguments: Course("Course One", "This is a dmmy  course"));
             // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
           },
-          child: const Text('Launch screen'),
+          child: const Text(
+              'Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. Launch screen. '),
         ),
       ))
     ]));
