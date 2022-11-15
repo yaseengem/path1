@@ -1,10 +1,10 @@
 Upnext:
-
-Put root layout in router in app.dart, then give pages as childs to it.
-
+Add navigator.
 
     
 
 
 
 Completed:
+
+Put root layout in router in app.dart, then give pages as childs to it.
