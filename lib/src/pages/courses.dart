@@ -14,19 +14,6 @@ class Courses extends StatelessWidget {
     final args = ModalRoute.of(context)!.settings.arguments as Course;
     final String title = "Courses page";
     return Scaffold(
-      appBar: BaseAppBar(
-        title: Text(title),
-        appBar: AppBar(),
-        widgets: <Widget>[Icon(Icons.more_vert)],
-      ),
-      //set app bar from appbar.dart
-      // use like this where ever you want
-      endDrawer: myDrawer(),
-      //set drawer from app_drawer.dart
-      //set like this where ever you want
-      // appBar: AppBar(
-      //   title: const SelectableText('Second Screen'),
-      // ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {

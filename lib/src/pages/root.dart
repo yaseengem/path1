@@ -6,9 +6,13 @@ import '../shared/appbar.dart';
 // import '/src/shared/theme.dart';
 // import 'package:provider/provider.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class RootLayout extends StatelessWidget {
+  const RootLayout({
+    super.key,
+    required this.child,
+  });
 
+  final Widget child;
   @override
   Widget build(BuildContext context) {
     final String title = "Home page";

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'pages/root.dart';
 import 'pages/courses.dart';
 import '/src/shared/theme.dart';
+import '/src/pages/home.dart';
 import 'package:provider/provider.dart';
 
 class MyApp extends StatelessWidget {
@@ -15,9 +16,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
-        '/': (context) => const HomeScreen(),
+        '/': (context) => RootLayout(child: HomeScreen()),
         // When navigating to the "/second" route, build the SecondScreen widget.
-        '/courses': (context) => const Courses(),
+        '/courses': (context) => RootLayout(child: Courses()),
       },
       theme: Provider.of<ThemeModel>(context).currentTheme,
     );
