@@ -15,7 +15,7 @@ class Courses extends StatelessWidget {
     final String title = "Courses page";
     return Scaffold(
       appBar: BaseAppBar(
-        title: Text('title'),
+        title: Text(title),
         appBar: AppBar(),
         widgets: <Widget>[Icon(Icons.more_vert)],
       ),
@@ -32,7 +32,8 @@ class Courses extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text(args.name),
+          child: Text(
+              "Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... End of text"),
         ),
       ),
     );
