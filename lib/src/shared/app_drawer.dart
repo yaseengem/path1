@@ -58,6 +58,16 @@ class myDrawerState extends State<myDrawer> {
               Navigator.pushNamed(context, '/courselist');
             },
           ),
+          ListTile(
+            leading: Icon(
+              Icons.settings,
+            ),
+            title: const Text('Settings'),
+            onTap: () {
+              // Navigator.pushNamed(context, '/', arguments: HomePage());
+              Navigator.pushNamed(context, '/settings');
+            },
+          ),
         ],
       ),
     )

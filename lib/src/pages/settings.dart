@@ -11,8 +11,8 @@ class Settings extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final args = ModalRoute.of(context)!.settings.arguments as Course;
-    final String title = "Courses page";
+    // final args = ModalRoute.of(context)!.settings.arguments as Course;
+    // final String title = "Settings";
     return Scaffold(
       body: Center(
         child: ElevatedButton(
@@ -20,7 +20,7 @@ class Settings extends StatelessWidget {
             Navigator.pop(context);
           },
           child: Text(
-              "Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... Long text... End of text"),
+              "Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  Settings..  "),
         ),
       ),
     );
