@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../pages/homepage.dart';
-import '../pages/courses_list.dart';
+import '../pages/courselist.dart';
 
 class myDrawer extends StatefulWidget {
   const myDrawer({super.key});
@@ -44,7 +44,8 @@ class myDrawerState extends State<myDrawer> {
             ),
             title: const Text('Home'),
             onTap: () {
-              Navigator.pushNamed(context, '/', arguments: HomePage());
+              // Navigator.pushNamed(context, '/', arguments: HomePage());
+              Navigator.pushNamed(context, '/');
             },
           ),
           ListTile(
@@ -53,7 +54,8 @@ class myDrawerState extends State<myDrawer> {
             ),
             title: const Text('Courses'),
             onTap: () {
-              Navigator.pushNamed(context, '/courses', arguments: CourseList());
+              // Navigator.pushNamed(context, '/courselist',  arguments: CourseList());
+              Navigator.pushNamed(context, '/courselist');
             },
           ),
         ],

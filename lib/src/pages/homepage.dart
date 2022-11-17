@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../classes/objects.dart';
-import 'courses_list.dart';
+import 'courselist.dart';
 import 'root.dart';
 
 // import '/src/shared/theme.dart';
@@ -16,7 +16,8 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/courses', arguments: CourseList());
+            Navigator.pushNamed(context, '/courselist',
+                arguments: CourseList());
             // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
           },
           child: const Text(

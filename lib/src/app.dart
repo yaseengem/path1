@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '/src/pages/root.dart';
-import 'pages/courses_list.dart';
+import 'pages/courselist.dart';
 import '/src/shared/theme.dart';
 import 'pages/homepage.dart';
 import '/src/pages/settings.dart';
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/" route, build the FirstScreen widget.
         '/': (context) => RootLayout(title: "Home", child: HomePage()),
         // When navigating to the "/second" route, build the SecondScreen widget.
-        '/courses': (context) =>
+        '/courselist': (context) =>
             RootLayout(title: "Courses", child: CourseList()),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/settings': (context) =>
