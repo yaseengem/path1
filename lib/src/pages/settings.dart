@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../shared/app_drawer.dart';
-import '../shared/appbar.dart';
+import '../shared/baseappbar.dart';
 
 class Settings extends StatelessWidget {
   const Settings({super.key});

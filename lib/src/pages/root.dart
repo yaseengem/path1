@@ -2,20 +2,21 @@ import 'package:flutter/material.dart';
 import '../classes/objects.dart';
 
 import '../shared/app_drawer.dart';
-import '../shared/appbar.dart';
+import '../shared/baseappbar.dart';
 // import '/src/shared/theme.dart';
 // import 'package:provider/provider.dart';
 
 class RootLayout extends StatelessWidget {
   const RootLayout({
     super.key,
+    required this.title,
     required this.child,
   });
-
+  final String title;
   final Widget child;
   @override
   Widget build(BuildContext context) {
-    final String title = "Home page";
+    // final String title = "Home page";
     return Scaffold(
       appBar: BaseAppBar(
         title: Text(title),

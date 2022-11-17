@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../shared/app_drawer.dart';
-import '../shared/appbar.dart';
+import '../shared/baseappbar.dart';
 
-class Courses extends StatelessWidget {
-  const Courses({super.key});
+class CourseList extends StatelessWidget {
+  const CourseList({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final args = ModalRoute.of(context)!.settings.arguments as Course;
+    // final args = ModalRoute.of(context)!.settings.arguments as Course;
     final String title = "Courses page";
     return Scaffold(
       body: Center(
