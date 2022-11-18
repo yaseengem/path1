@@ -1,5 +1,22 @@
 Upnext:
-Add navigator.
+
+
+Google login
+Background process
+Google Sign in and sign out.
+Image and details in the navigator profile
+Image change functionality. Saved locally for now.
+Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
+Complete theme dark and light.
+Search in app bar
+Make a settings  page but the settings page will load from internet.. So settings can be saved across.
+Backgrond process to check for notifications from web, periodically and show it in notifications.
+Check for notifiacations from web.
+
+
+Publish the app to playstore
+
+
 
     
 
@@ -8,3 +25,6 @@ Add navigator.
 Completed:
 
 Put root layout in router in app.dart, then give pages as childs to it.
+navigoator added
+
+
