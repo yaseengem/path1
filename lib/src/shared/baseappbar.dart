@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterfire_ui/auth.dart';
 
 class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Color backgroundColor = const Color.fromARGB(255, 3, 41, 23);
@@ -20,7 +21,7 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: title,
       backgroundColor: backgroundColor,
-      // actions: widgets,
+      actions: [],
     );
   }
 

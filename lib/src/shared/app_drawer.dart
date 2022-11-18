@@ -4,6 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../pages/homepage.dart';
 import '../pages/courselist.dart';
+import 'package:flutterfire_ui/auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class myDrawer extends StatefulWidget {
   const myDrawer({super.key});
@@ -24,6 +26,10 @@ class myDrawer extends StatefulWidget {
 class myDrawerState extends State<myDrawer> {
   @override
   Widget build(BuildContext context) {
+    User currentUser;
+    User? user = FirebaseAuth.instance.currentUser;
+    final userphotourl = user?.photoURL;
+
     return Drawer(
         // child: SingleChildScrollView(
         child: Container(
@@ -32,11 +38,41 @@ class myDrawerState extends State<myDrawer> {
         // Important: Remove any padding from the ListView.
         padding: EdgeInsets.zero,
         children: [
-          const DrawerHeader(
+          DrawerHeader(
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
-            child: Text('Drawer Header'),
+            child: GestureDetector(
+              child: Image.network(userphotourl!),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute<ProfileScreen>(
+                    builder: (context) => ProfileScreen(
+                      appBar: AppBar(
+                        title: const Text('User Profile'),
+                      ),
+                      actions: [
+                        SignedOutAction((context) {
+                          Navigator.of(context).pop();
+                        })
+                      ],
+                      children: [
+                        const Divider(),
+                        Padding(
+                          padding: const EdgeInsets.all(2),
+                          child: AspectRatio(
+                            aspectRatio: 1,
+                            child: Image.asset(
+                                '../../../assets/path_logo_green.png'),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ),
           ),
           ListTile(
             leading: Icon(
@@ -63,6 +99,16 @@ class myDrawerState extends State<myDrawer> {
               Icons.settings,
             ),
             title: const Text('Settings'),
+            onTap: () {
+              // Navigator.pushNamed(context, '/', arguments: HomePage());
+              Navigator.pushNamed(context, '/settings');
+            },
+          ),
+          ListTile(
+            // leading: Icon(
+            //   Icons.logout,
+            // ),
+            title: const SignOutButton(),
             onTap: () {
               // Navigator.pushNamed(context, '/', arguments: HomePage());
               Navigator.pushNamed(context, '/settings');

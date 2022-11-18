@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '/src/shared/theme.dart';
 import '/src/app.dart';
 import 'package:provider/provider.dart';
-
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 

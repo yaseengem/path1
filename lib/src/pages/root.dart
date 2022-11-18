@@ -18,19 +18,12 @@ class RootLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     // final String title = "Home page";
     return Scaffold(
+      endDrawer: myDrawer(),
       appBar: BaseAppBar(
         title: Text(title),
         appBar: AppBar(),
         widgets: <Widget>[Icon(Icons.more_vert)],
       ),
-      //set app bar from appbar.dart
-      // use like this where ever you want
-      endDrawer: myDrawer(),
-      //set drawer from app_drawer.dart
-      //set like this where ever you want
-      // appBar: AppBar(
-      //   title: const SelectableText('Second Screen'),
-      // ),
       body: child,
     );
   }
