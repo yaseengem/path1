@@ -176,6 +176,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3+22"
+  firebase_messaging:
+    dependency: "direct main"
+    description:
+      name: firebase_messaging
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "14.1.1"
+  firebase_messaging_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_messaging_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.2.7"
+  firebase_messaging_web:
+    dependency: transitive
+    description:
+      name: firebase_messaging_web
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.2.7"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -336,6 +357,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  overlay_support:
+    dependency: "direct main"
+    description:
+      name: overlay_support
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
   path:
     dependency: transitive
     description:
