@@ -1,7 +1,7 @@
 Upnext:
 
 
-Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
+Search icon in the app bar
 Background process
 Google Sign in and sign out.
 Image and details in the navigator profile
@@ -27,5 +27,8 @@ Completed:
 Put root layout in router in app.dart, then give pages as childs to it.
 navigoator added
 Google login
+Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
+
+
 
 
