@@ -1,6 +1,7 @@
 Upnext:
 
-Notifications
+
+Search icon in the app bar
 Background process
 Google Sign in and sign out.
 Image and details in the navigator profile
@@ -11,13 +12,11 @@ Search in app bar
 Make a settings  page but the settings page will load from internet.. So settings can be saved across.
 Backgrond process to check for notifications from web, periodically and show it in notifications.
 Check for notifiacations from web.
-Add theme in root layout page itself. So it can be applied on every page.. 
+
 
 Publish the app to playstore
 
 
-
-Search icon in the app bar. Later as referred in this example. https://github.com/AminullahTajMuhammad/E-Commerce-UI-Kit
 
     
 

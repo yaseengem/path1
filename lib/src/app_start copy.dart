@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:overlay_support/overlay_support.dart';
 import '/src/pages/root.dart';
 import 'pages/courselist.dart';
 import '/src/shared/theme.dart';
