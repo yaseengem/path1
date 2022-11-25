@@ -13,8 +13,7 @@ class AppStart extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return OverlaySupport(
-        child: MaterialApp(
+    return MaterialApp(
       title: 'Path - Steps to success 1',
       initialRoute: '/',
       routes: {
@@ -28,6 +27,6 @@ class AppStart extends StatelessWidget {
             RootLayout(title: "Settings", child: Settings()),
       },
       theme: Provider.of<ThemeModel>(context).currentTheme,
-    ));
+    );
   }
 }
