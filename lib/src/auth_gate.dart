@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
 
-import 'app_start.dart';
+import 'master_page.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
@@ -58,7 +58,7 @@ class AuthGate extends StatelessWidget {
           );
         }
 
-        return const AppStart();
+        return const MasterPage();
       },
     );
   }

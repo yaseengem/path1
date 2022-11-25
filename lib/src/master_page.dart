@@ -6,8 +6,8 @@ import '/src/shared/theme.dart';
 import 'pages/homepage.dart';
 import '/src/pages/settings.dart';
 
-class AppStart extends StatelessWidget {
-  const AppStart({super.key});
+class MasterPage extends StatelessWidget {
+  const MasterPage({super.key});
 
   // This widget is the root of your application.
   @override
