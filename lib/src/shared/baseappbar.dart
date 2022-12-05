@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
 
+import 'package:firebase_auth/firebase_auth.dart';
+
 class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Color backgroundColor = const Color.fromARGB(255, 3, 41, 23);
   final Text title;
@@ -18,11 +20,43 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    User? user = FirebaseAuth.instance.currentUser;
+    final userphotourl = user?.photoURL;
     return AppBar(
       title: title,
-      backgroundColor: backgroundColor,
-      actions: [],
+      backgroundColor: Colors.white,
+      automaticallyImplyLeading: true,
+      elevation: 5.0,
+      leading: const Icon(
+        Icons.menu,
+      ),
+      actions: const <Widget>[
+        Padding(
+          padding: EdgeInsets.only(right: 20.0),
+          child: Icon(
+            Icons.search,
+            size: 26.0,
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.only(right: 20.0),
+          child: Icon(Icons.favorite),
+        ),
+        Padding(
+          padding: EdgeInsets.only(right: 20.0),
+          child: Icon(
+            Icons.person,
+          ),
+        ),
+      ],
+      iconTheme: IconThemeData(color: Colors.black),
     );
+
+    // AppBar(
+    //   title: title,
+    //   backgroundColor: backgroundColor,
+    //   actions: [],
+    // );
   }
 
   @override

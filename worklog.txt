@@ -3,15 +3,18 @@ Upnext:
 
 Search icon in the app bar
 Background process
-Google Sign in and sign out.
 Image and details in the navigator profile
 Image change functionality. Saved locally for now.
 Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
 Complete theme dark and light.
 Search in app bar
 Make a settings  page but the settings page will load from internet.. So settings can be saved across.
+
+Andorid device needed items in the last:
+Push Notification in the last
 Backgrond process to check for notifications from web, periodically and show it in notifications.
-Check for notifiacations from web.
+
+
 
 
 Publish the app to playstore
@@ -29,6 +32,7 @@ navigoator added
 Google login
 Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
 
+Google Sign in and sign out.
 
 
 

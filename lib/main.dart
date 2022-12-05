@@ -14,7 +14,7 @@ void main() async {
   runApp(
     ChangeNotifierProvider<ThemeModel>(
       create: (context) => ThemeModel(),
-      child: SetLoginTheme(),
+      child: const SetLoginTheme(),
     ),
   );
 }
