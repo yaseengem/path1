@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../classes/objects.dart';
 
-import '../shared/app_drawer.dart';
-import '../shared/baseappbar.dart';
+import '../shared/base_drawer.dart';
+import '../shared/base_appbar.dart';
 // import '/src/shared/theme.dart';
 // import 'package:provider/provider.dart';
 
@@ -18,9 +18,9 @@ class RootLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     // final String title = "Home page";
     return Scaffold(
-      endDrawer: myDrawer(),
+      endDrawer: base_drawer(),
       appBar: BaseAppBar(
-        title: Text(title),
+        title: title,
         appBar: AppBar(),
         widgets: <Widget>[Icon(Icons.more_vert)],
       ),
