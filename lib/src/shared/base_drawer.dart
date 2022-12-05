@@ -7,8 +7,8 @@ import '../pages/courselist.dart';
 import 'package:flutterfire_ui/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-class myDrawer extends StatefulWidget {
-  const myDrawer({super.key});
+class base_drawer extends StatefulWidget {
+  const base_drawer({super.key});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -20,10 +20,10 @@ class myDrawer extends StatefulWidget {
   // always marked "final".
 
   @override
-  State<myDrawer> createState() => myDrawerState();
+  State<base_drawer> createState() => base_drawerState();
 }
 
-class myDrawerState extends State<myDrawer> {
+class base_drawerState extends State<base_drawer> {
   @override
   Widget build(BuildContext context) {
     User currentUser;
