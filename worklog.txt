@@ -1,10 +1,11 @@
+Note for next day
+Dont focus on appbar or drawer for now. Just focus on the next ones.. like background task etc.
+
+
 Upnext:
 
 
-Search icon in the app bar
 Background process
-Image and details in the navigator profile
-Image change functionality. Saved locally for now.
 Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
 Complete theme dark and light.
 Search in app bar
@@ -14,13 +15,15 @@ Andorid device needed items in the last:
 Push Notification in the last
 Backgrond process to check for notifications from web, periodically and show it in notifications.
 
+Image change functionality. Saved locally for now.
 
 
 
 Publish the app to playstore
 
 
-
+APPBAR and DRAEWWER ISSUE LATER: For now I hid the action icons. And using the drawer. 
+Search icon in the app bar and search screen
     
 
 
@@ -33,6 +36,7 @@ Google login
 Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
 
 Google Sign in and sign out.
+Image and details in the navigator profile
 
 
 

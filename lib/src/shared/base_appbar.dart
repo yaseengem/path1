@@ -25,7 +25,7 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(
         title,
-        style: TextStyle(
+        style: const TextStyle(
           color: Colors.blueGrey,
         ),
       ),
@@ -36,31 +36,31 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
       //   Icons.menu,
       // ),
       actions: <Widget>[
-        Padding(
-          padding: EdgeInsets.only(right: 20.0),
-          child: Icon(
-            Icons.search,
-            size: 26.0,
-          ),
-        ),
         // Padding(
         //   padding: EdgeInsets.only(right: 20.0),
-        //   child: Icon(Icons.favorite),
+        //   child: Icon(
+        //     Icons.search,
+        //     size: 26.0,
+        //   ),
         // ),
-        Padding(
-          padding: EdgeInsets.only(right: 20.0),
-          child: ElevatedButton(
-            onPressed: () {
-              Navigator.pushNamed(context, '/courselist');
-              //  Navigator.pushNamed(context, '/courselist',
-              //       arguments: CourseList());
-              //   // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
-            },
-            child: Icon(
-              Icons.menu,
-            ),
-          ),
-        ),
+        // // Padding(
+        // //   padding: EdgeInsets.only(right: 20.0),
+        // //   child: Icon(Icons.favorite),
+        // // ),
+        // Padding(
+        //   padding: EdgeInsets.only(right: 20.0),
+        //   child: ElevatedButton(
+        //     onPressed: () {
+        //       Navigator.pushNamed(context, '/courselist');
+        //       //  Navigator.pushNamed(context, '/courselist',
+        //       //       arguments: CourseList());
+        //       //   // Provider.of<ThemeModel>(context, listen: false).toggleTheme();
+        //     },
+        //     child: Icon(
+        //       Icons.menu,
+        //     ),
+        //   ),
+        // ),
       ],
       iconTheme: IconThemeData(color: Colors.black),
     );
