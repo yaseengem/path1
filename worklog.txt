@@ -1,20 +1,11 @@
 Note for next day
 Dont focus on appbar or drawer for now. Just focus on the next ones.. like background task etc.
-
+Prioritize all platform features, take mobile only or web only features later.
 
 Upnext:
 
-
-Background process
-Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
-Complete theme dark and light.
-Search in app bar
+Change profile image
 Make a settings  page but the settings page will load from internet.. So settings can be saved across.
-
-Andorid device needed items in the last:
-Push Notification in the last
-Backgrond process to check for notifications from web, periodically and show it in notifications.
-
 Image change functionality. Saved locally for now.
 
 
@@ -25,6 +16,19 @@ Publish the app to playstore
 APPBAR and DRAEWWER ISSUE LATER: For now I hid the action icons. And using the drawer. 
 Search icon in the app bar and search screen
     
+
+Mobile only feaatures:
+Background process
+Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
+Push Notification in the last
+Backgrond process to check for notifications from web, periodically and show it in notifications.
+
+
+Non  critical features later:
+Complete theme dark and light.
+Search in app bar.
+Commplete the Appbar with profile image, menu, back button, searchtext box, etc
+Search text box page - spearate page for it.
 
 
 
