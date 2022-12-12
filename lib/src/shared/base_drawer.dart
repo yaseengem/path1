@@ -63,8 +63,7 @@ class base_drawerState extends State<base_drawer> {
                           padding: const EdgeInsets.all(2),
                           child: AspectRatio(
                             aspectRatio: 1,
-                            child: Image.asset(
-                                '../../../assets/path_logo_green.png'),
+                            child: Image.asset('path_logo_green.png'),
                           ),
                         ),
                       ],

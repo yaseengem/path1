@@ -2,8 +2,12 @@ Note for next day
 Dont focus on appbar or drawer for now. Just focus on the next ones.. like background task etc.
 Prioritize all platform features, take mobile only or web only features later.
 
+Fix the app to beworking on android. Preesntinly it is not working.. This may cause a lot of problem later.
+
+
 Upnext:
 
+Wireless connect Android device
 Change profile image
 Make a settings  page but the settings page will load from internet.. So settings can be saved across.
 Image change functionality. Saved locally for now.
