@@ -1,50 +1,21 @@
 Note for next day
+
+20 Dec 2022
+Not working on this now. Moving to use the boiler plate at https://codelabs.developers.google.com/codelabs/flutter-boring-to-beautiful#7
+Completed one is in github code final folder. But will do it after the API is ready for testing.
+And will use a new repo as strating fresh.
+This one is the one created fresh from scratch. Quite a lot of work but good learning which I can use in the next fresh work.
+
+
+
+
+
+
+10 Dec 2022
+
 Dont focus on appbar or drawer for now. Just focus on the next ones.. like background task etc.
 Prioritize all platform features, take mobile only or web only features later.
 
 Fix the app to beworking on android. Preesntinly it is not working.. This may cause a lot of problem later.
-
-
-Upnext:
-
-Wireless connect Android device
-Change profile image
-Make a settings  page but the settings page will load from internet.. So settings can be saved across.
-Image change functionality. Saved locally for now.
-
-
-
-Publish the app to playstore
-
-
-APPBAR and DRAEWWER ISSUE LATER: For now I hid the action icons. And using the drawer. 
-Search icon in the app bar and search screen
-    
-
-Mobile only feaatures:
-Background process
-Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
-Push Notification in the last
-Backgrond process to check for notifications from web, periodically and show it in notifications.
-
-
-Non  critical features later:
-Complete theme dark and light.
-Search in app bar.
-Commplete the Appbar with profile image, menu, back button, searchtext box, etc
-Search text box page - spearate page for it.
-
-
-
-Completed:
-
-Put root layout in router in app.dart, then give pages as childs to it.
-navigoator added
-Google login
-Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
-
-Google Sign in and sign out.
-Image and details in the navigator profile
-
 
 
