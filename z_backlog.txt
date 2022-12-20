@@ -1,0 +1,43 @@
+
+Upnext:
+
+Wireless connect Android device
+Change profile image
+Make a settings  page but the settings page will load from internet.. So settings can be saved across.
+Image change functionality. Saved locally for now.
+
+
+
+Publish the app to playstore
+
+
+APPBAR and DRAEWWER ISSUE LATER: For now I hid the action icons. And using the drawer. 
+Search icon in the app bar and search screen
+    
+
+Mobile only feaatures:
+Background process
+Some simple local settings on mobile device alone.. not web. - like Notification turn on for new course, theme, etc .. 
+Push Notification in the last
+Backgrond process to check for notifications from web, periodically and show it in notifications.
+
+
+Non  critical features later:
+Complete theme dark and light.
+Search in app bar.
+Commplete the Appbar with profile image, menu, back button, searchtext box, etc
+Search text box page - spearate page for it.
+
+
+
+Completed:
+
+Put root layout in router in app.dart, then give pages as childs to it.
+navigoator added
+Google login
+Merge the actual files and google login sample file.. All functions of the sample pages to be added to the main files.. Like the login icon on appbar, sign out button, etc.
+
+Google Sign in and sign out.
+Image and details in the navigator profile
+
+
